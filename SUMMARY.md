@@ -1,7 +1,6 @@
 # Table of contents
 
-* [ReadME](README.md)
-* [A](a.md)
+* [A](README.md)
 * [B](b.md)
 * [C](c.md)
 * [D](d.md)
@@ -27,3 +26,4 @@
 * [X](x.md)
 * [Y](y.md)
 * [Z](z.md)
+* [ReadME](<README (1).md>)
