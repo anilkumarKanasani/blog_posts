@@ -26,4 +26,3 @@
 * [X](x.md)
 * [Y](y.md)
 * [Z](z.md)
-* [ReadME](<README (1).md>)
