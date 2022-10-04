@@ -13,3 +13,7 @@ What proportion of positive identifications was actually correct?
 trim / Cut away  a tree, shrub, or bush by <mark style="color:green;">**cutting away**</mark> dead or overgrown branches or stems, especially to encourage growth.
 
 Example :- Now is the time to prune roses.
+
+<mark style="color:red;">**Perception**</mark>
+
+The ability to see, hear or sense some thing _Understanding very deeply._
