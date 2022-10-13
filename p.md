@@ -17,3 +17,7 @@ Example :- Now is the time to prune roses.
 <mark style="color:red;">**Perception**</mark>
 
 The ability to see, hear or sense some thing _Understanding very deeply._
+
+<mark style="color:red;">**perturbations**</mark>
+
+anxiety, commotion, confusion, disorder, disruption, disturbance.
