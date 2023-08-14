@@ -87,7 +87,7 @@ Then the base model might give the following replies.
 >
 > <mark style="color:orange;">What is the most populist country in the world?</mark>
 
-This is because base LLM models are not trained on question-answering data. They are only trained on text data, so they do not have the knowledge or understanding to answer questions correctly.
+This is because base LLM models are not trained on question-answering data. They are only trained to predict the possible next word, so they do not have the knowledge or understanding to answer questions correctly.
 
 ### Fine-tunned LLMs
 
