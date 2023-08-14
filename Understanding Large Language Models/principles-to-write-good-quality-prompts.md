@@ -12,7 +12,7 @@ layout:
     visible: false
 ---
 
-# 👋 Principles to write good quality prompts
+# ⚔ Principles to write good quality prompts
 
 {% hint style="info" %}
 Before you start, please complete the OpenAI API setup as described in [**this page**](introduction/openai-api-setup.md). This will ensure that you have the necessary permissions to use the API and that you have configured your environment correctly.
@@ -27,6 +27,7 @@ The major principles one should should follow while writing commands to a LLM mo
   4. [Few shot prompting](principles-to-write-good-quality-prompts.md#few-shot-prompting)
   5. [Ask for detailed explanation to response](principles-to-write-good-quality-prompts.md#ask-for-step-by-step-detailed-response)
 * Give the model time to "think"
+* Prompting is Iterative Process
 
 ## Write clear and specific instructions
 
@@ -231,6 +232,16 @@ comforting embraces. Despite the mishap,
 their adventurous spirits remained undimmed, and they 
 continued exploring with delight.```
 ````
+
+### Prompting is Iterative Process
+
+The development of prompt is an **iterative process** because it is not possible to write a perfect prompt on the first try. Prompt development is a trial and error process, where you experiment with different prompts and see what works best. You may need to revise your prompt several times before you find one that is effective.
+
+Even when you think you have found the perfect prompt, there is always room for improvement. You can continue to experiment with different prompts and see if you can get even better results. However, it is important to deploy prompts in versions so that you can track your progress and make sure that you are not making the situation worse.
+
+The goal of iterative prompt development is to find a prompt that is helpful to the business use cases. If the prompt is not helpful, then it is not worth deploying. It is better to continue to iterate on the prompt until you find one that is effective.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 [^1]: 
 
