@@ -25,6 +25,7 @@ The major principles one should should follow while writing commands to a LLM mo
   2. (If possible) [Ask for a structured output](principles-to-write-good-quality-prompts.md#ask-for-a-structred-output)
   3. [check conditions are satisfied](principles-to-write-good-quality-prompts.md#ask-to-check-conditions-to-satis)
   4. [Few shot prompting](principles-to-write-good-quality-prompts.md#few-shot-prompting)
+  5. [Ask for detailed explanation to response](principles-to-write-good-quality-prompts.md#ask-for-step-by-step-detailed-response)
 * Give the model time to "think"
 
 ## Write clear and specific instructions
