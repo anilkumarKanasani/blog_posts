@@ -107,5 +107,5 @@ This process of fine-tuning allows the LLM to learn the relationships between wo
 
 Feedback is typically collected using [reinforcement learning with human feedback](https://en.wikipedia.org/wiki/Reinforcement\_learning\_from\_human\_feedback) (RLHF). RLHF is a technique that allows an LLM to learn from human feedback.
 
-The quality of the answer from an LLM (or from any person in general) depends on the quality of the question. A well-defined and informative question will yield a more valuable answer than a poorly defined or ambiguous question. In the following sections, we will discuss the [principles of writing effective questions for LLMs](page.md).
+The quality of the answer from an LLM (or from any person in general) depends on the quality of the question. A well-defined and informative question will yield a more valuable answer than a poorly defined or ambiguous question. In the following sections, we will discuss the [principles of writing effective questions for LLMs](broken-reference).
 
