@@ -30,7 +30,7 @@ Once you have completed both of the above steps, you can use the following code 
 
 ```
 import openai
-openai.api_key = os.getenv("XX-XXX-XXXX-XXXX-XXXX")
+openai.api_key = "XX-XXX-XXXX-XXXX-XXXX"
 ```
 
 ## Type of API interactions
