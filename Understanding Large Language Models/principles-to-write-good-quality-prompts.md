@@ -12,5 +12,8 @@ layout:
     visible: false
 ---
 
-# Page
+# 📚 Principles to write good quality prompts
+
+1. Write clear and specific Instruction
+2. Give the model time to "think"
 
