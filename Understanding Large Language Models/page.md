@@ -21,3 +21,10 @@ Before you start, please complete the OpenAI API setup as described in [**this p
 1. Write clear and specific Instruction
 2. Give the model time to "think"
 
+
+
+
+
+
+
+Yet to come

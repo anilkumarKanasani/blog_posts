@@ -14,8 +14,6 @@ layout:
 
 # OpenAI API setup
 
-
-
 ## Installation
 
 In this project, we will use the OpenAI API to interact with the ChatGPT model. We will write different types of prompts and analyze the responses given by the model. To use the API, we will need to install the [OpenAI Python package](https://pypi.org/project/openai/). This can be done by running the following command in your Jupyter notebook:
