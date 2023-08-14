@@ -105,5 +105,5 @@ The prompt tells the LLM that the user is looking for the answer to a specific q
 
 This process of fine-tuning allows the LLM to learn the relationships between words and the instructions. This, in turn, allows the LLM to give better attempts at following those instructions. Instruction based Fine-tunned LLMs have the potential to revolutionise the way we interact with NLP models.
 
-Feedback is typically collected using reinforcement learning with human feedback (RLHF). RLHF is a technique that allows an LLM to learn from human feedback.
+Feedback is typically collected using [reinforcement learning with human feedback](https://en.wikipedia.org/wiki/Reinforcement\_learning\_from\_human\_feedback) (RLHF). RLHF is a technique that allows an LLM to learn from human feedback.
 
