@@ -7,4 +7,4 @@
 * [🐒 Prompts for Text analysis](prompts-for-text-analysis.md)
 * [🪵 Prompts for Text Transformations](prompts-for-text-transformations.md)
 * [🕶 Prompts for Text Expansion](prompts-for-text-expansion.md)
-* [🕶 Custom Chat Bot](custom-chat-bot.md)
+* [🤖 Custom Chat Bot](custom-chat-bot.md)
