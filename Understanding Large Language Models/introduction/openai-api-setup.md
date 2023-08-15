@@ -12,7 +12,7 @@ layout:
     visible: false
 ---
 
-# OpenAI API setup
+# 🧑✈ OpenAI API setup
 
 ## Installation
 
@@ -61,15 +61,9 @@ The remaining parameters, such as **temperature, max\_tokens, top\_p, and penalt
 openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
   messages=[
-    {
-    "role": "system", 
-    "content": "You are a helpful assistant."
-    },
-    {
-      "role": "user",
-      "content": "Hello"
-    }
-  ],
+             {"role": "system", "content": "You are a helpful assistant."},
+             {"role": "user","content": "Hello"}
+           ],
   temperature=1,
   max_tokens=256,
   top_p=1,
