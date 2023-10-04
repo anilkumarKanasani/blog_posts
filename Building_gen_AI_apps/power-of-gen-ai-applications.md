@@ -42,7 +42,7 @@ Some of the models are open-sources and some are not. All the models differ in t
 
 In general, any computer application (or) API has predefined syntax in which we have to interact with them. In contrast, large language models are able to take natural language or human written instructions and perform tasks much as a human would. The input is called Prompt and the output is called completion.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Here are some examples of generative AI prompts and completions:
 
@@ -60,7 +60,7 @@ Here are some examples of generative AI prompts and completions:
 
     &#x20;           &#x20;
 
-    &#x20;     <img src=".gitbook/assets/image (1).png" alt="" data-size="original">
+    &#x20;     <img src=".gitbook/assets/image (1) (1).png" alt="" data-size="original">
 * **Prompt:** Write a code snippet to calculate the factorial of a number.
 * **Completion:**
 
