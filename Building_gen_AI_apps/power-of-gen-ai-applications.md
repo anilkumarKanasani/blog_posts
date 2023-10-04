@@ -53,7 +53,7 @@ Here are some examples of generative AI prompts and completions:
 
     &#x20;       Oh, furry feline, with eyes so bright, You fill my days with such delight. Your playful antics, your cuddly purrs, I'm so glad to have you, my furry friend.
 
-
+***
 
 * **Prompt:** Generate an image of a cat.
 *   **Completion:**
@@ -61,6 +61,9 @@ Here are some examples of generative AI prompts and completions:
     &#x20;           &#x20;
 
     &#x20;     <img src=".gitbook/assets/image (1) (1).png" alt="" data-size="original">
+
+***
+
 * **Prompt:** Write a code snippet to calculate the factorial of a number.
 * **Completion:**
 
