@@ -81,4 +81,22 @@ By visualizing words in a three-dimensional vector space, it becomes apparent ho
 
 ### Positional Encoding&#x20;
 
-XXXXX
+In the encoder or decoder, token vectors are incorporated along with positional encoding to maintain information about word order. This ensures that the model processes input tokens in parallel without losing the significance of each word's position in the sentence.
+
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+### Multi Head self attention
+
+In this context, the model examines the connections among tokens in the input sequence, allowing it to emphasize different parts of the sequence for a more comprehensive understanding of word relationships. The self-attention mechanism in transformer architecture involves multiple independent self-attention heads, with the number varying across models (typically between 12-100). Each self-attention head learns a different facet of language, such as relationships between entities, sentence activities, or rhyming words. Importantly, the specific aspects of language learned by each attention head are not predetermined but emerge through random initialization and extensive training. While some attention maps are easily interpretable, others may be more complex.
+
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+### Softmax layer
+
+The output of feed forward layer consists of logits, which are proportional to the probability scores for every token in the tokenizer dictionary. These logits can be further processed through a softmax layer to normalize them into probability scores for each word. The resulting output provides a probability score for every word in the vocabulary, often comprising thousands of scores. Among these scores, one token will typically have the highest value, representing the most likely predicted token.
+
+<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+If you want to learn more about working of transformer models, I recommend to go through the following page
+
+[http://jalammar.github.io/illustrated-transformer/](http://jalammar.github.io/illustrated-transformer/)
