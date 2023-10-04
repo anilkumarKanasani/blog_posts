@@ -41,6 +41,8 @@ Language is more complex. Almost every word has various meanings and its context
 
 To over come all the limitations, In 2017, the publication of the paper "Attention Is All You Need" by Google and the University of Toronto revolutionized the field of generative AI. The transformer architecture, which was introduced in this paper, has enabled the progress that we see in generative AI today. These are able to generate more coherent and informative text, translate languages more accurately, and perform other generative tasks more effectively.
 
+***
+
 ## Transformer architecture
 
 The transformer architecture's strength lies in its capacity to understand the significance and context of every word in a sentence, not just in relation to its immediate neighbours, but with respect to every other word in the sentence. This is achieved by using attention weights to determine how relevant each word is to all other words, regardless of their position in the input.
@@ -55,6 +57,28 @@ The provided diagram, referred to as an attention map, effectively visualizes th
 
 ### Hight level overview of architecture
 
-XxXXXXXXX
+The central element in the entire architecture is the self-attention layer, although there are several other components apart from it. The transformer architecture is divided into two main parts: the encoder and the decoder, which collaborate closely and exhibit certain commonalities. Inputs are positioned at the bottom, while outputs are located at the top of the model. It's important to note that machine learning models operate with numerical data, not textual content, requiring the conversion of input text into numerical representations.&#x20;
 
-<figure><img src="https://machinelearningmastery.com/wp-content/uploads/2021/08/attention_research_1.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+All the components in the architecture are described as follows.
+
+### Tokenizer
+
+Text is transformed into numerical representations through tokenization, where each number corresponds to a specific position within a dictionary containing all possible words the model can process. Tokenizers come in various types, some converting whole words into numbers while others break down words into smaller pieces for numerical encoding. It's crucial to maintain consistency by using the same tokenizer when generating text.
+
+<figure><img src="https://lh5.googleusercontent.com/--dcLzgPmbe5caKCvpyJ-oXc5tlmdeuoKeVbAZLDmSZG90Vx7MM5OD-PC3_z6WsXv6XPEC2HqfySktoffaD4pD4kxUoejljwIB1D7M3wAike56zeJKP6Y8pgDPA2M65_AnjTkM-vjDaL_xkO3YD-eZc" alt=""><figcaption></figcaption></figure>
+
+### Embedding Layer :-
+
+This layer serves as a trainable vector embedding space, where tokens are represented as unique vectors in a high-dimensional space. Each token in the vocabulary is associated with a multi-dimensional vector, enabling the encoding of meaning and context for individual tokens within the input sequence. Examples of embedding models include word2vec and Doc2Vec. In the paper, tokens were transformed into 512-dimensional vectors.
+
+<figure><img src="https://lh6.googleusercontent.com/O1n9QOj7lwoCuiDotGIOjDv_kxZsfphlrMNL-thpQ80YrFQOoGKrVzsLI50JcJ29MiX7H0TtXOFOfZi9ThnEJ3nw2eYdb0KKVIcg1nkE3tfyvjOU-OuScifuF6V6SjbhYks6u0AdGS6e0QHRszTOUto" alt=""><figcaption></figcaption></figure>
+
+By visualizing words in a three-dimensional vector space, it becomes apparent how their relationships can be depicted. Words located closely to each other in this embedding space are related, and their distance can be calculated as an angle. This mathematical approach enables the model to gain a deeper understanding of language.
+
+<figure><img src="https://lh5.googleusercontent.com/7nM8vQKRFzYTCT8mjjixrPEnjsP3fRX1JyfGUjhVr-O0mSEUkqbqnDZd_OFwa1mKxFvmIZuEg5Q0auNSaNxWm0CP9RJAT9mtb2calxzgKlYgQv85K8RSffaP3yRoRSdVJzcQClVV3pKgcGdzYWFeXrQ" alt=""><figcaption></figcaption></figure>
+
+### Positional Encoding :-
+
+XXXXX
