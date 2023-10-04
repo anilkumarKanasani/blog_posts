@@ -75,3 +75,19 @@ print(factorial(5))
 ```
 
 Generative AI is a powerful new technology with the potential to revolutionize many industries. By understanding the basics of generative AI, you can start to develop your own innovative AI applications.
+
+## Popular Gen AI applicaiton
+
+Some of the most popular well know applications are as follows
+
+* **Chat Bots**
+* **Write Essay**
+* **Summarization**
+* **Language Translation**
+* **Code generation**
+* **Information retrieval (Entity Extraction)**
+* **Augmenting LLms by connecting to extrnal data sources**
+
+
+
+\
