@@ -17,9 +17,7 @@ layout:
     visible: true
 ---
 
-# Introduction
-
-
+# 🚀 Introduction
 
 {% hint style="info" %}
 **Acknowledgement :**&#x20;
@@ -33,48 +31,38 @@ I would also like to thank the [Bard tool ](https://bard.google.com/)for generat
 I hope this blog post is informative and helpful.
 {% endhint %}
 
-## Generative AI & LLMs
+### Generative AI Project Life Cycle Framework with LLMs
 
-## Text generation before transformers
+Large language models (LLMs) are a powerful new technology with the potential to revolutionize many industries. This blog post provides a comprehensive overview of the generative AI project life cycle framework, with a focus on LLMs.
 
-## Transformers architecture
+The blog post begins by introducing the transformer architecture, which is the foundation of most modern LLMs. It then discusses in-context learning (also known as prompt engineering), which is a technique for fine-tuning LLMs to perform specific tasks. Next, the blog post covers instruction fine-tuning and parameter-efficient fine-tuning (PEFT), which are two other techniques for improving the performance of LLMs on specific tasks. Finally, the blog post discusses reinforcement learning from human feedback (RLHF), which is a technique for training LLMs to generate outputs that are more aligned with human preferences.
 
-## Generating text with transformers
+### Major Topics Covered
 
-## Generative AI project lifecycle
+#### Basic Level
 
-\------------------------------------------------------------------------
+* The transformer architecture
+* In-context learning (or) prompt engineering
+* Full model training
 
-Instruction fine-tuning
+#### Fine tunning
 
-Fine-tuning on a single task
+* Instruction fine-tuning
+* Parameter-efficient fine-tuning (PEFT)
 
-Multi-task instruction fine-tuning
+#### Human Feedback
 
-Model evaluation
+* Reinforcement learning from human feedback (RLHF)
+* Model Evaluation
 
-Parameter efficient fine-tuning (PEFT)
+#### Deployment & Inferencing
 
-LoRA
+* Model optimizations for deployment
+* Interacting with external applications
+* Chain-of-thoughts
+* Program-aided language models
+* ReAct :Combining reasoning and action
+*   LLM applicaiton architectures
 
-Soft prompts
 
-\------------------------------------------------------------------------
 
-Aligning models with human values
-
-Reinforcement learning from human feedback (RLHF)
-
-\------------------------------------------------------------------------
-
-Model optimizations for deployment
-
-Interacting with external applications
-
-chain-of-thought
-
-Program-aided language models
-
-ReAct: Combining reasoning and action
-
-LLM application architectures
