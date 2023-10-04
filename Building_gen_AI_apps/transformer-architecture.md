@@ -69,7 +69,7 @@ Text is transformed into numerical representations through tokenization, where e
 
 <figure><img src="https://lh5.googleusercontent.com/--dcLzgPmbe5caKCvpyJ-oXc5tlmdeuoKeVbAZLDmSZG90Vx7MM5OD-PC3_z6WsXv6XPEC2HqfySktoffaD4pD4kxUoejljwIB1D7M3wAike56zeJKP6Y8pgDPA2M65_AnjTkM-vjDaL_xkO3YD-eZc" alt=""><figcaption></figcaption></figure>
 
-### Embedding Layer :-
+### Embedding Layer&#x20;
 
 This layer serves as a trainable vector embedding space, where tokens are represented as unique vectors in a high-dimensional space. Each token in the vocabulary is associated with a multi-dimensional vector, enabling the encoding of meaning and context for individual tokens within the input sequence. Examples of embedding models include word2vec and Doc2Vec. In the paper, tokens were transformed into 512-dimensional vectors.
 
@@ -79,6 +79,6 @@ By visualizing words in a three-dimensional vector space, it becomes apparent ho
 
 <figure><img src="https://lh5.googleusercontent.com/7nM8vQKRFzYTCT8mjjixrPEnjsP3fRX1JyfGUjhVr-O0mSEUkqbqnDZd_OFwa1mKxFvmIZuEg5Q0auNSaNxWm0CP9RJAT9mtb2calxzgKlYgQv85K8RSffaP3yRoRSdVJzcQClVV3pKgcGdzYWFeXrQ" alt=""><figcaption></figcaption></figure>
 
-### Positional Encoding :-
+### Positional Encoding&#x20;
 
 XXXXX
