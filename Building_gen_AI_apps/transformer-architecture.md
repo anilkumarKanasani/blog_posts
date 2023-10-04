@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Transformer architecture
+# ☠ Transformer architecture
 
 ## Text generation before Transformers
 
@@ -30,4 +30,16 @@ Recurrent neural networks (RNNs) are a type of neural network that are able to p
 ### Limitations of RNN family
 
 RNNs are not very good at predicting the next word in a sentence if they only see the previous few words. To make better predictions, RNNs need to see more of the context, such as the whole sentence or even the whole document. However, this can require a lot of resources, and even then the model may not be able to make a perfect prediction.
+
+In the below example, the word great is predicted based on previous three words. But it is not correct prediction when we considered the total sentense.
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+Language is more complex. Almost every word has various meanings and its context is very import to derive the meaning of the word.
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+To over come all the limitations, In 2017, the publication of the paper "Attention Is All You Need" by Google and the University of Toronto revolutionized the field of generative AI. The transformer architecture, which was introduced in this paper, has enabled the progress that we see in generative AI today. These are able to generate more coherent and informative text, translate languages more accurately, and perform other generative tasks more effectively.
+
+## Transformer architecture
 
