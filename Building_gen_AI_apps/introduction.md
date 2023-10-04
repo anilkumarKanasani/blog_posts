@@ -19,8 +19,6 @@ layout:
 
 # Introduction
 
-
-
 {% hint style="info" %}
 **Acknowledgement :**&#x20;
 
