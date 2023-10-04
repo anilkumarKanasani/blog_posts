@@ -97,7 +97,7 @@ The output of feed forward layer consists of logits, which are proportional to t
 
 <figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-### Softmax layer
+### External details
 
 If you want to learn more about working of transformer models, I recommend to go through the following page
 
