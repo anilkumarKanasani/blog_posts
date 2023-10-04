@@ -104,3 +104,7 @@ If you want to learn more about working of transformer models, I recommend to go
 {% embed url="http://jalammar.github.io/illustrated-transformer/" %}
 
 {% embed url="https://www.youtube.com/watch?v=-QH8fRhqFHM" %}
+
+### Type of Transformer archetictures
+
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
