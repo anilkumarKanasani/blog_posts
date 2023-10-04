@@ -33,15 +33,15 @@ I would also like to thank the [Bard tool ](https://bard.google.com/)for generat
 I hope this blog post is informative and helpful.
 {% endhint %}
 
-Generative AI & LLMs
+## Generative AI & LLMs
 
-Text generation before transformers
+## Text generation before transformers
 
-Transformers architecture
+## Transformers architecture
 
-Generating text with transformers
+## Generating text with transformers
 
-Generative AI project lifecycle
+## Generative AI project lifecycle
 
 \------------------------------------------------------------------------
 
