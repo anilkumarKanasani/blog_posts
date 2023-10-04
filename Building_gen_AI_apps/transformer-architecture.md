@@ -43,3 +43,18 @@ To over come all the limitations, In 2017, the publication of the paper "Attenti
 
 ## Transformer architecture
 
+The transformer architecture's strength lies in its capacity to understand the significance and context of every word in a sentence, not just in relation to its immediate neighbours, but with respect to every other word in the sentence. This is achieved by using attention weights to determine how relevant each word is to all other words, regardless of their position in the input.
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+### Self-attention
+
+The provided diagram, referred to as an attention map, effectively visualizes the attention weights that link each word to every other word in a sentence. Notably, the word "book" exhibits a strong connection or attention towards both "teacher" and "student." This phenomenon is termed self-attention, and the model's capacity to acquire such intricate relationships across the entire input greatly enhances its language encoding capabilities.
+
+<figure><img src="https://lh4.googleusercontent.com/1cUBomIW_ZR9DSboT-VXyBbT3OnNFM6dLH5b77cZBwRrpdY2Ck40yGeNPvELQPeXqGmDU3bFgVYWh4tdyDdqbbbbXa39KMmM5S8L5fn0lrj7fv25h3jZt7uDkHOguAOW4VTvB7N6eunW5ZGg_nZs_94" alt=""><figcaption></figcaption></figure>
+
+### Hight level overview of architecture
+
+XxXXXXXXX
+
+<figure><img src="https://machinelearningmastery.com/wp-content/uploads/2021/08/attention_research_1.png" alt="" width="375"><figcaption></figcaption></figure>
